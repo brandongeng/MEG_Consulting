@@ -163,7 +163,7 @@ function MenuSection() {
         <GridContainer>
             <LogoContainer>
                 <TextContainer>
-                    <TitleText style={{width:"16vw"}}>Our Application Tracker</TitleText>
+                    <TitleText style={{width:"16vw"}}>Recruitment Timeline</TitleText>
                 </TextContainer>
             </LogoContainer>
             <TimelineContainer>
@@ -186,17 +186,17 @@ function MenuSection() {
                 <ApplyContinaer>
                     <TextContainer>
                         <a href= "https://docs.google.com/forms/d/e/1FAIpQLSeHCJl6mIQEAhO2DPE_1x8zasWhHH_C8zrzZ_AK3pMhmnZ0BQ/viewform" target="_blank" style={{textDecoration: "none"}}>
-                            <TitleText style={{width:"30vw", textAlign: "center", textDecoration: "underline"}}>APPLY NOW</TitleText>
+                            <TitleText style={{width:"30vw", textAlign: "center", textDecoration: "underline"}}>JOIN OUR INTEREST FORM HERE</TitleText>
                         </a>
                     </TextContainer>
                 </ApplyContinaer>
-                <MoreContainer>
+                /*<MoreContainer>
                     <TextContainer>
                         <HeaderText>Maxize Your Recruiting Experience</HeaderText>
                         <SmallSpacer/>
                         <BodyText>Ross club recuiting can be an intimidating experience, but we're here to help you get thorugh it and to help you get the most out of it! Below we have advice and our recruiting philosiphy that'll help</BodyText>
                     </TextContainer>
-                </MoreContainer>
+                </MoreContainer>*/ 
             </CenterContinaer>
             <InfoContainer>
                 <SoonContainer style={{height:"25%", width:"100%", left: "0%", top:"35%"}}>

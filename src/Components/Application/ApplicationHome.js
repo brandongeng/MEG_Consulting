@@ -48,7 +48,7 @@ const TitleText = styled.h1`
 
 const TitleTextStill = styled.h1`
   font-size: 8vmin;
-  font-family: futura-pt, sans-serif;
+  font-family: montserrat-pt, sans-serif;
   margin: 0;
   padding: 0;
   color: transparent;

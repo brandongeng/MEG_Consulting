@@ -127,15 +127,15 @@ function TipSection(){
             <ContentContainer>
                 <TipContainer style={{height: clickId === 1 ? `${height}px`:"15vh"}} onClick={() => clickId !== 1 ? setClickId(1):setClickId(0)}>
                     <TitleTextContainer>
-                        <TitleText>What exactly is consulting?</TitleText>
+                        <TitleText>What is consulting?</TitleText>
                         <BsPlusLg style={{marginRight:"1vw", marginLeft:"5vw", transform: clickId === 1 ? "rotate(45deg)":"none", transition: "transform .5s", fontSize: "3vmin", flexShrink:0}}/>
                     </TitleTextContainer>
-                    <BodyText ref={measuredRef}>To put it simply, consluting is the practice of helping businesses with any issues they might have. It is bringing in experts &#40;maybe you in the future!&#41; to solve complex problems.</BodyText>
+                    <BodyText ref={measuredRef}>Simply put, consulting is helping a business solve a problem. This can be done through research, strategy, data analytics, and many more! </BodyText>
                 </TipContainer>
 
                 <TipContainer style={{height: clickId === 2 ? `${height1}px`:"15vh"}} onClick={() => clickId !== 2 ? setClickId(2):setClickId(0)}>
                     <TitleTextContainer>
-                        <TitleText>What exactly do consulting clubs do?</TitleText>
+                        <TitleText>What do consulting clubs do?</TitleText>
                         <BsPlusLg style={{marginRight:"1vw", marginLeft:"5vw", transform: clickId === 2 ? "rotate(45deg)":"none", transition: "transform .5s", fontSize: "3vmin", flexShrink:0}}/>
                     </TitleTextContainer>
                     <BodyText ref={measuredRef1}>For most consulting clubs at Ross, members are put into project teams that work with actual businesses. Throughout the semester, a project team uses one of many consulting frameworks to create solutions for their client. At the end of the semester the project team presents their final recommendations to the client. </BodyText>
@@ -143,7 +143,7 @@ function TipSection(){
 
                 <TipContainer style={{height: clickId === 3 ? `${height2}px`:"15vh"}} onClick={() => clickId !== 3 ? setClickId(3):setClickId(0)}>
                     <TitleTextContainer>
-                        <TitleText>How does the club recruiting process work?</TitleText>
+                        <TitleText>How does the club recruitment process work?</TitleText>
                         <BsPlusLg style={{marginRight:"1vw", marginLeft:"5vw", transform: clickId === 3 ? "rotate(45deg)":"none", transition: "transform .5s", fontSize: "3vmin", flexShrink:0}}/>
                     </TitleTextContainer>
                     <BodyText ref={measuredRef2}>The club recruiting process occurs every fall and winter semester. It starts with a handful of events held by a consulting club for you to get to know each club and their members. To actually apply, clubs have a written application that include a few short answer questions. Next, if you're written application is accepted, most clubs have one or two behavorial and case interviews.  </BodyText>
